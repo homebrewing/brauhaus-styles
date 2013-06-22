@@ -32,7 +32,7 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "brauhaus": ">=0.5.4 <1"
+    "brauhaus": ">=0.6.0 <1"
   },
   "devDependencies": {
     "brauhaus": ">=0.6 <1",
