@@ -1,0 +1,51 @@
+{
+  "name": "brauhaus-styles",
+  "version": "0.6.0",
+  "description": "A BJCP style catalog plugin for Brauhaus.js",
+  "homepage": "https://github.com/homebrewing/brauhaus-styles",
+  "main": "lib/brauhaus-styles.js",
+  "scripts": {
+    "pretest": "./node_modules/coffee-script/bin/cake build",
+    "prepublish": "./node_modules/coffee-script/bin/cake build",
+    "test": "./node_modules/coffee-script/bin/cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homebrewing/brauhaus-styles"
+  },
+  "bugs": {
+    "url": "https://github.com/homebrewing/brauhaus-styles/issues"
+  },
+  "keywords": [
+    "brauhaus",
+    "plugin",
+    "bjcp",
+    "style",
+    "styles",
+    "catalog"
+  ],
+  "author": {
+    "name": "Daniel G. Taylor",
+    "email": "danielgtaylor@gmail.com",
+    "url": "https://github.com/homebrewing"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "brauhaus": ">=0.5.4 <1"
+  },
+  "devDependencies": {
+    "brauhaus": ">=0.6 <1",
+    "coffee-script": ">=1.6.2 <2",
+    "coffeelint": ">=0.5.6 <1",
+    "mocha": "1.9.x",
+    "mocha-phantomjs": "2.x",
+    "chai": "1.x",
+    "uglify-js": "2.x",
+    "istanbul": ">=0.1.34 <0.2",
+    "coveralls": ">=2.0.7 <3"
+  },
+  "engines": {
+    "node": ">=0.8.19"
+  }
+}
