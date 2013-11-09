@@ -1,6 +1,6 @@
 {
   "name": "brauhaus-styles",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "A BJCP style catalog plugin for Brauhaus.js",
   "homepage": "https://github.com/homebrewing/brauhaus-styles",
   "main": "lib/brauhaus-styles.js",
@@ -32,10 +32,10 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "brauhaus": ">=0.6.0 <1"
+    "brauhaus": ">=1 <2"
   },
   "devDependencies": {
-    "brauhaus": ">=0.6 <1",
+    "brauhaus": ">=1 <2",
     "coffee-script": ">=1.6.2 <2",
     "coffeelint": ">=0.5.6 <1",
     "mocha": "1.9.x",
